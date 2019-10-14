@@ -1,0 +1,401 @@
++-------+-------+
+| . . . | . . . | 
+| . . . | . . . | 
+| . . . | . . . | 
++-------+-------+
+| . . . | . . . | 
+| . . . | . . . | 
+| . . . | . . . | 
++-------+-------+
+What color do you want to play as? (w/b): wDo you want to go first? (y/n/random): r
+
++-------+-------+
+| . . . | . . . | 
+| . . . | . . . | 
+| . . . | . . . | 
++-------+-------+
+| . . . | . . . | 
+| . b . | . . . | 
+| . . . | . . . | 
++-------+-------+
+(ai) b: 3/5 2L
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 4/3 2l
++-------+-------+
+| . . . | . . . | 
+| . . . | . . . | 
+| . . . | . . . | 
++-------+-------+
+| . . . | . . w | 
+| . b . | . . . | 
+| . . . | . . . | 
++-------+-------+
+(You) w: 4/3 2L
+
++-------+-------+
+| . . . | . . . | 
+| . . . | . . . | 
+| . . . | . b . | 
++-------+-------+
+| . . . | . . . | 
+| . b . | . . . | 
+| . . . | . . w | 
++-------+-------+
+(ai) b: 2/8 4R
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 1/5 2l
++-------+-------+
+| . . . | . . . | 
+| . w . | . . b | 
+| . . . | . . . | 
++-------+-------+
+| . . . | . . . | 
+| . b . | . . . | 
+| . . . | . . w | 
++-------+-------+
+(You) w: 1/5 2L
+
++-------+-------+
+| . . . | . . . | 
+| . w . | b . . | 
+| . . . | . b . | 
++-------+-------+
+| . . . | . . . | 
+| . b . | . . . | 
+| . . . | . . w | 
++-------+-------+
+(ai) b: 2/8 2R
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 4/3 2l
++-------+-------+
+| . . . | . . . | 
+| . w . | . . b | 
+| . . . | . b . | 
++-------+-------+
+| . . . | . . w | 
+| . b . | . . . | 
+| . . . | . . w | 
++-------+-------+
+(You) w: 4/3 2L
+
++-------+-------+
+| . . . | . . . | 
+| . w . | b . . | 
+| . . . | . b . | 
++-------+-------+
+| . . b | . . w | 
+| . b . | . . . | 
+| . . . | . . w | 
++-------+-------+
+(ai) b: 3/3 2R
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 3/7 4l
++-------+-------+
+| . . . | . . . | 
+| . w . | b . . | 
+| . . . | . b . | 
++-------+-------+
+| . . b | w . w | 
+| . b . | . . . | 
+| w . . | . . . | 
++-------+-------+
+(You) w: 3/7 4L
+
++-------+-------+
+| . . . | . . . | 
+| . w . | b . . | 
+| . . b | . b . | 
++-------+-------+
+| . . b | w . w | 
+| . b . | . . . | 
+| w . . | . . . | 
++-------+-------+
+(ai) b: 1/3 1R
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 3/2 1l
++-------+-------+
+| . . b | . . . | 
+| . w . | b . . | 
+| . . . | . b . | 
++-------+-------+
+| . w b | w . w | 
+| . b . | . . . | 
+| w . . | . . . | 
++-------+-------+
+(You) w: 3/2 1L
+
++-------+-------+
+| . . b | . . . | 
+| . w . | b . . | 
+| . . . | . b . | 
++-------+-------+
+| . w b | w b . | 
+| . b . | . . . | 
+| w . . | w . . | 
++-------+-------+
+(ai) b: 4/6 4L
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 4/5 1l
++-------+-------+
+| b . . | . . . | 
+| . w . | b . . | 
+| . . . | . b . | 
++-------+-------+
+| . w b | w b . | 
+| . b . | . w . | 
+| w . . | w . . | 
++-------+-------+
+(You) w: 4/5 1L
+
++-------+-------+
+| . . b | . . . | 
+| . w . | b . . | 
+| . . b | . b . | 
++-------+-------+
+| . w b | w b . | 
+| . b . | . w . | 
+| w . . | w . . | 
++-------+-------+
+(ai) b: 1/3 1R
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 1/8 2l
++-------+-------+
+| . . b | . . . | 
+| . w . | . . b | 
+| . w b | . b . | 
++-------+-------+
+| . w b | w b . | 
+| . b . | . w . | 
+| w . . | w . . | 
++-------+-------+
+(You) w: 1/8 2L
+
++-------+-------+
+| . . b | . . . | 
+| . w . | b . . | 
+| . w b | . b . | 
++-------+-------+
+| . w b | w b . | 
+| . b . | . w . | 
+| w . b | w . . | 
++-------+-------+
+(ai) b: 3/9 2R
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 1/6 3r
++-------+-------+
+| . . b | . . . | 
+| . w w | b . . | 
+| . w b | . b . | 
++-------+-------+
+| w . . | w b . | 
+| . b w | . w . | 
+| b . b | w . . | 
++-------+-------+
+(You) w: 1/6 3R
+
++-------+-------+
+| . . b | . . . | 
+| . w w | b . . | 
+| . w b | . b . | 
++-------+-------+
+| b w b | w b . | 
+| . b . | . w . | 
+| w . b | w . . | 
++-------+-------+
+(ai) b: 3/3 3L
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 2/1 2l
++-------+-------+
+| . . b | . . . | 
+| . w w | . . b | 
+| . w b | w b . | 
++-------+-------+
+| b w b | w b . | 
+| . b . | . w . | 
+| w . b | w . . | 
++-------+-------+
+(You) w: 2/1 2L
+
++-------+-------+
+| . . b | w . . | 
+| . w w | b . . | 
+| . w b | . b . | 
++-------+-------+
+| b w b | w b . | 
+| . b . | . w b | 
+| w . b | w . . | 
++-------+-------+
+(ai) b: 4/6 2R
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 2/2 2r
++-------+-------+
+| . . b | . b w | 
+| . w w | b . w | 
+| . w b | . . . | 
++-------+-------+
+| b w b | w b . | 
+| . b . | . w b | 
+| w . b | w . . | 
++-------+-------+
+(You) w: 2/2 2R
+
++-------+-------+
+| . . b | . b w | 
+| . w w | b . w | 
+| . w b | . b . | 
++-------+-------+
+| w . b | w b . | 
+| . b w | . w b | 
+| b . b | w . . | 
++-------+-------+
+(ai) b: 2/8 3R
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 3/2 3r
++-------+-------+
+| . . b | . b w | 
+| . w w | b . w | 
+| . w b | . b . | 
++-------+-------+
+| b . w | w b . | 
+| . b w | . w b | 
+| b w b | w . . | 
++-------+-------+
+(You) w: 3/2 3R
+
++-------+-------+
+| . . b | . b w | 
+| . w w | b . w | 
+| . w b | . b . | 
++-------+-------+
+| b b w | w . w | 
+| . b w | . w b | 
+| b w b | . b . | 
++-------+-------+
+(ai) b: 3/2 4R
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 3/4 1r
++-------+-------+
+| . . . | . b w | 
+| w w . | b . w | 
+| b w b | . b . | 
++-------+-------+
+| b b w | w . w | 
+| w b w | . w b | 
+| b w b | . b . | 
++-------+-------+
+(You) w: 3/4 1R
+
++-------+-------+
+| . b . | . b w | 
+| w w . | b . w | 
+| b w b | . b . | 
++-------+-------+
+| b w b | w . w | 
+| w b b | . w b | 
+| b w w | . b . | 
++-------+-------+
+(ai) b: 1/2 3R
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 4/9 2r
++-------+-------+
+| . b . | . b . | 
+| w w . | b . b | 
+| b w b | . w w | 
++-------+-------+
+| b w b | w . w | 
+| w b b | . w b | 
+| b w w | . b w | 
++-------+-------+
+(You) w: 4/9 2R
+
++-------+-------+
+| . b b | . b w | 
+| w w . | b . w | 
+| b w b | . b . | 
++-------+-------+
+| b w b | w . w | 
+| w b b | . w b | 
+| b w w | . b w | 
++-------+-------+
+(ai) b: 1/3 2L
+
+Move format: b/p bd 
+b = block
+p = position in block
+d = direction to rotate the block ("L", "R")
+Make your move(w): 2/9 1l
++-------+-------+
+| b . b | . b w | 
+| b w w | b . w | 
+| . w b | . b w | 
++-------+-------+
+| b w b | w . w | 
+| w b b | . w b | 
+| b w w | . b w | 
++-------+-------+
+(You) w: 2/9 1L
+
++-------+-------+
+| . b b | . b w | 
+| w w b | b . w | 
+| b w b | . b w | 
++-------+-------+
+| b w b | w . w | 
+| w b b | . w b | 
+| b w w | . b w | 
++-------+-------+
+(ai) b: 1/2 1R
+
+winner: (ai) b
